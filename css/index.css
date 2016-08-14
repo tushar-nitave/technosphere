@@ -27,7 +27,7 @@ body{
 	margin-top:-5%;
 }
 /*Navigation-Bar BEGIN */
-@media(min-width:767px){
+@media(min-width:768px){
 	.navbar-inverse{
 		background-color: rgba(0,0,0,0.8);
 		border-radius:0px;
@@ -84,3 +84,38 @@ body{
 }
 
 /*Navigation END */
+
+/* Footer BEGIN */
+@media(min-width: 768px){
+	.fmenus{
+		width:100%;
+		display: inline-block;
+		position: fixed;
+		bottom: 0;
+		text-align: center;
+		margin-bottom: 2%;
+
+	}
+	.fmenus a{
+		font-size: 20px;
+		font-family: Myriad Pro, sans-serif, Helvetica, Arial;
+		color: #000;
+		font-weight: lighter;
+		padding: 0 2% 0 2%;
+		transition: 0.2s;
+		-webkit-transition: 0.2s;
+		-moz-transition: 0.2s;
+	}
+	.fmenus> a:hover{
+		text-decoration: none;
+		color: #fff;
+		transition: 0.5s;
+		-webkit-transition: 0.5s;
+		-moz-transition: 0.5s;
+	}
+	.fmenus a img{
+		height:32px;
+		width:32px;
+	}
+
+}
